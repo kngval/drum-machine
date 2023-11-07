@@ -1,0 +1,48 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #380202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drum-machine{
+    text-align: center;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+    border: 2px solid #fff;
+    
+}
+
+kbd{
+    font-size: 1.2rem;
+}
+
+
+.drum-pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c2828;
+}
+
+#display{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+

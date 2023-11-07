@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drum-Machine</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div id="drum-machine">
+            <div id="display"></div>
+
+            <div class="display">
+                <div class="drum-pad" id="closedHH" data-key="81">
+                    <kbd>Q</kbd>
+                    <audio class="clip" id="Q" src="./audios/Cev_H2.mp3" data-key="81"></audio>
+                </div>
+
+                <div class="drum-pad" id="openHH" data-key="87">
+                    <kbd>W</kbd>
+                    <audio class="clip" id="W" src="./audios/Dsc_Oh.mp3" data-key="87"></audio>
+                </div>
+
+                <div class="drum-pad" id="heater1" data-key="69">
+                    <kbd>E</kbd>
+                    <audio class="clip" id="E" src="./audios/Heater-1.mp3" data-key="69"></audio>
+                </div>
+
+                <div class="drum-pad" id="heater2" data-key="65">
+                    <kbd>A</kbd>
+                    <audio class="clip" id="A" src="./audios/Heater-2.mp3" data-key="65"></audio>
+                </div>
+
+                <div class="drum-pad" id="heater3" data-key="83">
+                    <kbd>S</kbd>
+                    <audio class="clip" id="S" src="./audios/Heater-3.mp3" data-key="83"></audio>
+                </div>
+
+                <div class="drum-pad" id="heater4" data-key="68">
+                    <kbd>D</kbd> 
+                    <audio class="clip" id="D" src="./audios/Heater-4_1.mp3" data-key="68"></audio>
+                </div>
+
+                <div class="drum-pad" id="clap" data-key="90">
+                    <kbd>Z</kbd>
+                    <audio class="clip" id="Z" src="./audios/Heater-6.mp3" data-key="90"></audio>
+                </div>
+
+                <div class="drum-pad" id="kicknhat" data-key="88">
+                    <kbd>X</kbd>
+                    <audio class="clip" id="X" src="./audios/Kick_n_Hat.mp3" data-key="88"></audio>
+                </div>
+
+                <div class="drum-pad" id="kick" data-key="67">
+                    <kbd>C</kbd>
+                    <audio class="clip" id="C" src="./audios/RP4_KICK_1.mp3" data-key="67"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
